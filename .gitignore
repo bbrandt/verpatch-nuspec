@@ -286,3 +286,6 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+build/Tools/NuGet/nuget.exe
+src/verpatch.exe
+src/verpatch-ReadMe.txt
