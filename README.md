@@ -1,0 +1,1 @@
+# verpatch-nuspec
