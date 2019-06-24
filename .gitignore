@@ -289,3 +289,5 @@ __pycache__/
 build/Tools/NuGet/nuget.exe
 src/verpatch.exe
 src/verpatch-ReadMe.txt
+src/content/verpatch-ReadMe.txt
+src/content/verpatch.exe

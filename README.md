@@ -1,6 +1,6 @@
 # Publishing to Internal ProGet Server
-1. Download latest verpatch release from https://ddverpatch.codeplex.com/ (TODO: Update link if migrated to GitHub.)
-2. Extract [verpatch.exe, verpatch-ReadMe.txt] to src folder
+1. Download latest verpatch release from https://github.com/pavel-a/ddverpatch
+2. Extract [verpatch.exe, verpatch-ReadMe.txt] to src/content folder
 3. Run .\build Publish
 
 # Publishing to NuGet.org

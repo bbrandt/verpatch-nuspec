@@ -2,26 +2,26 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>verpatch</id>
-    <version>1.0.14</version>
+    <version>2.0.0</version>
     <title>Verpatch</title>
     <authors>ddbug</authors>
     <summary>Simple command line editor for executable file version and other properties.</summary>
     <description>Verpatch is a little tool that we made for building and maintenance of console applications, DLLs, kernel drivers and so on. 
 Besides updating version info or create a complete version resource, it can add binary resources to executable, remove debug information path.
-</description>
+    </description>
     <language>en-US</language>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>true</developmentDependency>
     <releaseNotes>
     </releaseNotes>
-	<projectUrl>https://ddverpatch.codeplex.com/</projectUrl>
-	<licenseUrl>https://ddverpatch.codeplex.com/license</licenseUrl>
-    <copyright>Copyright ©  2017</copyright>
+	  <projectUrl>https://github.com/pavel-a/ddverpatch</projectUrl>
+	  <license type="file">readme.txt</license>
+    <copyright>Copyright ï¿½  2017</copyright>
     <frameworkAssemblies />
     <dependencies />   
   </metadata>
   <files>
-    <file src="verpatch.exe" target="lib\win" exclude="" />
-    <file src="verpatch-ReadMe.txt" target="lib\win" exclude="" />
+    <file src="content/verpatch-ReadMe.txt" target="readme.txt" />
+    <file src="content/verpatch.exe" target="content" />
   </files>
 </package>
